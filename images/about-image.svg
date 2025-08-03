@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Fundo com gradiente suave -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9f9f9" />
+      <stop offset="100%" stop-color="#e6e6e6" />
+    </linearGradient>
+    
+    <!-- Sombra para elementos -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#0004" />
+    </filter>
+  </defs>
+  
+  <!-- Fundo -->
+  <rect width="800" height="600" fill="url(#bg-gradient)" rx="20" ry="20" />
+  
+  <!-- Fachada da clínica -->
+  <g transform="translate(400, 300)" filter="url(#shadow)">
+    <!-- Prédio principal -->
+    <rect x="-250" y="-200" width="500" height="300" fill="white" rx="5" ry="5" />
+    
+    <!-- Telhado -->
+    <path d="M -270 -200 L 270 -200 L 250 -250 L -250 -250 Z" fill="#4D8B48" />
+    
+    <!-- Porta principal -->
+    <rect x="-50" y="0" width="100" height="100" fill="#4D8B48" />
+    <rect x="-40" y="10" width="80" height="90" fill="#8BC486" />
+    <circle cx="30" cy="50" r="5" fill="#fff" />
+    
+    <!-- Janelas -->
+    <g>
+      <!-- Janela esquerda -->
+      <rect x="-200" y="-150" width="100" height="80" fill="#8BC486" rx="5" ry="5" />
+      <rect x="-195" y="-145" width="90" height="70" fill="#e6f5e6" rx="3" ry="3" />
+      <line x1="-150" y1="-145" x2="-150" y2="-75" stroke="#8BC486" stroke-width="2" />
+      <line x1="-195" y1="-110" x2="-105" y2="-110" stroke="#8BC486" stroke-width="2" />
+      
+      <!-- Janela central superior -->
+      <rect x="-50" y="-150" width="100" height="80" fill="#8BC486" rx="5" ry="5" />
+      <rect x="-45" y="-145" width="90" height="70" fill="#e6f5e6" rx="3" ry="3" />
+      <line x1="0" y1="-145" x2="0" y2="-75" stroke="#8BC486" stroke-width="2" />
+      <line x1="-45" y1="-110" x2="45" y2="-110" stroke="#8BC486" stroke-width="2" />
+      
+      <!-- Janela direita -->
+      <rect x="100" y="-150" width="100" height="80" fill="#8BC486" rx="5" ry="5" />
+      <rect x="105" y="-145" width="90" height="70" fill="#e6f5e6" rx="3" ry="3" />
+      <line x1="150" y1="-145" x2="150" y2="-75" stroke="#8BC486" stroke-width="2" />
+      <line x1="105" y1="-110" x2="195" y2="-110" stroke="#8BC486" stroke-width="2" />
+    </g>
+    
+    <!-- Placa da clínica -->
+    <g transform="translate(0, -50)">
+      <rect x="-120" y="-40" width="240" height="80" rx="10" ry="10" fill="#4D8B48" />
+      <rect x="-110" y="-30" width="220" height="60" rx="5" ry="5" fill="white" />
+      
+      <!-- Logo simplificado na placa -->
+      <g transform="translate(0, 0) scale(0.4)">
+        <circle cx="0" cy="0" r="60" fill="#4D8B48" />
+        <circle cx="0" cy="0" r="50" fill="white" />
+        <text x="0" y="-15" font-family="serif" font-size="24" text-anchor="middle" fill="#333">Jurema</text>
+        <text x="0" y="15" font-family="serif" font-size="24" text-anchor="middle" fill="#333">Vet</text>
+        <path d="M -20 -5 C -30 0 -25 20 -10 15 C 0 10 0 -5 -20 -5 Z" fill="#4D8B48" />
+        <path d="M 20 -5 C 30 0 25 20 10 15 C 0 10 0 -5 20 -5 Z" fill="#4D8B48" />
+      </g>
+    </g>
+    
+    <!-- Calçada -->
+    <rect x="-300" y="100" width="600" height="50" fill="#ddd" />
+    <line x1="-300" y1="110" x2="300" y2="110" stroke="#ccc" stroke-width="1" />
+    <line x1="-300" y1="120" x2="300" y2="120" stroke="#ccc" stroke-width="1" />
+    <line x1="-300" y1="130" x2="300" y2="130" stroke="#ccc" stroke-width="1" />
+    <line x1="-300" y1="140" x2="300" y2="140" stroke="#ccc" stroke-width="1" />
+  </g>
+  
+  <!-- Elementos decorativos -->
+  <g>
+    <!-- Árvore esquerda -->
+    <rect x="100" y="350" width="20" height="100" fill="#8B5A2B" />
+    <circle cx="110" cy="300" r="50" fill="#4D8B48" />
+    
+    <!-- Árvore direita -->
+    <rect x="680" y="350" width="20" height="100" fill="#8B5A2B" />
+    <circle cx="690" cy="300" r="50" fill="#4D8B48" />
+    
+    <!-- Arbustos -->
+    <ellipse cx="200" cy="450" rx="40" ry="30" fill="#8BC486" />
+    <ellipse cx="600" cy="450" rx="40" ry="30" fill="#8BC486" />
+    
+    <!-- Sol -->
+    <g transform="translate(700, 100)">
+      <circle cx="0" cy="0" r="40" fill="#FFD700" />
+      <g stroke="#FFD700" stroke-width="4">
+        <line x1="0" y1="-60" x2="0" y2="-50" />
+        <line x1="0" y1="50" x2="0" y2="60" />
+        <line x1="-60" y1="0" x2="-50" y2="0" />
+        <line x1="50" y1="0" x2="60" y2="0" />
+        <line x1="-42" y1="-42" x2="-35" y2="-35" />
+        <line x1="42" y1="-42" x2="35" y2="-35" />
+        <line x1="-42" y1="42" x2="-35" y2="35" />
+        <line x1="42" y1="42" x2="35" y2="35" />
+      </g>
+    </g>
+    
+    <!-- Nuvens -->
+    <g fill="white" opacity="0.8">
+      <ellipse cx="150" cy="100" rx="60" ry="30" />
+      <ellipse cx="200" cy="90" rx="40" ry="25" />
+      <ellipse cx="100" cy="90" rx="40" ry="20" />
+      
+      <ellipse cx="400" cy="150" rx="70" ry="35" />
+      <ellipse cx="450" cy="140" rx="50" ry="30" />
+      <ellipse cx="350" cy="140" rx="50" ry="25" />
+    </g>
+    
+    <!-- Silhuetas de animais -->
+    <g fill="#4D8B48" opacity="0.7" transform="translate(0, 450)">
+      <path d="M 300 0 C 290 -10 280 -20 270 -15 C 260 -10 260 0 270 5 C 280 10 290 5 300 0 Z" /> <!-- Gato -->
+      <ellipse cx="350" cy="0" rx="20" ry="15" /> <!-- Cachorro -->
+      <path d="M 350 -15 C 340 -25 330 -25 330 -15 C 330 -5 340 -5 350 -15 Z" /> <!-- Orelha cachorro -->
+    </g>
+  </g>
+  
+  <!-- Pessoas entrando na clínica (silhuetas) -->
+  <g fill="#333" opacity="0.7">
+    <ellipse cx="320" cy="400" rx="15" ry="30" /> <!-- Pessoa 1 -->
+    <circle cx="320" cy="350" r="15" />
+    
+    <ellipse cx="370" cy="400" rx="15" ry="25" /> <!-- Pessoa 2 -->
+    <circle cx="370" cy="355" r="12" />
+    
+    <ellipse cx="400" cy="410" rx="10" ry="20" /> <!-- Criança -->
+    <circle cx="400" cy="375" r="10" />
+    
+    <ellipse cx="390" cy="415" rx="8" ry="5" /> <!-- Animal de estimação -->
+  </g>
+</svg>

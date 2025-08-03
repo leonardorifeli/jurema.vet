@@ -1,0 +1,21 @@
+{
+  "name": "Jurema Vet - Clínica Veterinária",
+  "short_name": "Jurema Vet",
+  "description": "Clínica Veterinária especializada no cuidado de cães e gatos em Antônio Carlos, SC.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#4D8B48",
+  "icons": [
+    {
+      "src": "images/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
